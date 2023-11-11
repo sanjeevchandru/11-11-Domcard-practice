@@ -1,0 +1,35 @@
+@media(min-width:320px){
+    .container{
+        width: 100%;
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+    .col{
+        width: 100%;
+    }
+}
+
+@media(min-width:760px){
+    .container{
+        width: 95%;
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+    .col{
+        width: 50%;
+    }
+}
+
+@media(min-width:960px){
+    .container{
+        width: 85%;
+    }
+    .row{
+        flex-wrap: nowrap;
+    }
+    .col{
+        width: 33.33%;
+    }
+}
